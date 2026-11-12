@@ -1,0 +1,519 @@
+:root {
+    --yasil: #54d154;
+}
+.bg-yasil{background-color: var(--yasil)}
+.bg-ag{background-color: #fff}
+.bg-boz{background-color: #f2f1f1}
+.text-yasil{color: var(--yasil)}
+.text-ag{color: #fff}
+.text-boz-p{color: #b7b3b3}
+.text-boz-basliq{color: #828181}
+.text-boz-pyasil{color: #2b9b2b}
+body{
+    font-family: "Proxima Nova";
+}
+.body h1{
+    font-family: "Montserrat";
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: url('../img/headerbg.jpg') center/cover;
+}
+nav {
+    color: #fff;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav a{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Proxima Nova";
+}
+nav #search{
+    opacity: 0.800;
+    border: none;
+    border-radius: 14px;
+    background-color: #ffffff;
+    color: #000;
+}
+#search {
+    display: flex;
+}
+#search input,
+#search button {
+    height: 27px;
+    background: #ffffffcc;
+    border: none;
+    outline: none;
+    padding: 7px 14px;
+}
+
+#search button img {
+    height: 15px;
+}
+#search input {
+    border-radius: 1em 0 0 1em;
+}
+#search button {
+    border-radius: 0 1em 1em 0;
+}
+.text{
+    padding-top: 50px;
+    color: #fff;
+    text-shadow: 2px 3px 5px grey;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Proxima Nova";
+}
+.text button{
+    border: none;
+    border-radius: 23px;
+    background-color: #53d153;
+    padding: 5px 20px;
+    color: #fff;
+    margin-top: 12px;
+}
+
+#scroll{
+    color: #000;
+    opacity: 0.702;
+    margin-bottom: 30px;
+    width: 120px;
+    height: 25px;
+    border-radius: 13px;
+    background-color: #fff;
+}
+
+main{
+    text-align: center;
+}
+hr{
+    width: 43px;
+    height: 2px;
+    border: none;
+    background-color: #818181;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:80px;
+    gap: 50px;
+}
+.row .icon1{
+    display: flex;
+    margin: auto;
+    width: 142px;
+    height: 142px;
+    border-radius: 30px;
+    background-color: #e0f3e0;
+}
+.row .icon1 i{
+    margin: auto;
+    font-size: 70px;
+    width: 86px;
+    height: 74px;
+    color: #53d153;
+}
+.row a{
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #53d153;
+    margin-top: 20px;
+    padding: 3px;
+    color: #fff;
+}
+.row h2,.row p{
+    padding-top: 15px;
+}
+section h1{
+    padding-top: 20px;
+}
+#btn1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+#btn1 button {
+    height: 33px;
+    border: 1px solid #2b9b2b;
+    background: #fff;
+    font: 1em 'Proxima Nova';
+    color: #2b9b2b;
+    padding: 6px 20px;
+}
+#btn1 button:first-child {border-radius: 1em 0 0 1em}
+#btn1 button:last-child {border-radius: 0 1em 1em 0}
+#btn1 button:active,#btn1 button:hover{
+    background-color: #54d154;
+    color: #fff;
+}
+#img10 img{
+    width: 95vh;
+}
+#work{
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 186px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #2b9b2b;
+    border: none;
+    padding: 8px 10px;
+    color: #fff;
+}
+.stat p {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #444;
+    text-align: center;
+}
+.profil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.stat {
+    position: relative;
+}
+
+.prev,.next {
+    font-size: 30px;
+    color: #ccc;
+    position: absolute;
+    top: 50%;
+}
+
+.prev {
+    left: 20px;
+}
+
+.next {
+    right: 20px;
+}
+
+.prev:hover,
+.next:hover {
+    color: #54d154;
+}
+.team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.insan{
+    display: flex;
+    flex-direction: column;
+}
+.insan hr{
+    width: 2px;
+    height: 60px;
+}
+.insan img{
+    width: 124px;
+    height: 124px;
+    margin: auto;
+}
+.insan h5{
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    text-align: center;
+}
+.logo1 .dribbble {
+    color: #ea4c89;
+}
+
+.logo1 .behance {
+    color: #1769ff;
+}
+
+.logo1 .twitter {
+    color: #1da1f2;
+}
+.logo1{
+    border: none;
+    width: 84px;
+    height: 28px;
+    border-radius: 14px;
+    background-color: #c5e9c5;
+    margin: auto;
+    padding-top: 3px;
+}
+.bottom{
+    width: 1170px;
+    height: 94px;
+    background-color: #3eba3e;
+    width: 100%;
+}
+.bottom a{
+    display: inline-block;
+    width: 175px;
+    height: 40px;
+    border-radius: 20px;
+    color: #fff;
+    padding:7px 15px;
+    background-color: #53d153;
+    margin: 30px 0;
+    font-size: 19px;
+    font-weight: 300;
+    font-family: "Proxima Nova";
+    text-align: center;
+    box-shadow: 5px 5px 5px green;
+}
+footer {
+    background: #333;
+    color: #ccc;
+    padding: 40px 0 0;
+}
+
+.umumi {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+}
+
+.row3 h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.row3 hr {
+    width: 43px;
+    height: 2px;
+    background: #fff;
+    margin: 8px auto 20px;
+}
+
+.row3 p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ccc;
+}
+.about {
+    margin: 0;
+    text-align: center;
+}
+
+.about .logo1 {
+    margin: 25px auto 0;
+}
+.post {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.daxili {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 10px;
+    text-align: left;
+}
+.daxili img {
+    width: 53px;
+    height: 53px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+.daxili p {
+    font-size: 16px;
+    color: #ddd;
+    margin-bottom: 4px;
+}
+.tag {
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 11px;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+.tag.magazine {
+    background: #7ed35f;
+}
+.tag.ui {
+    background: #f5b82e;
+}
+.tag.photo {
+    background: #4a90e2;
+}
+.tag.book {
+    background: #e0592a;
+}
+address {
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #ccc;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.contact-form input,
+.contact-form textarea {
+    background: #444;
+    border: none;
+    border-bottom: 2px solid #333;
+    padding: 10px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    outline: none;
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #999;
+}
+.contact-form textarea {
+    height: 130px;
+    resize: none;
+}
+.contact-form button {
+    background: #55973b;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+.contact-form button:hover {
+    background: #3eba3e;
+}
+.bottom2{
+    height: 148px;
+    background-color: #212121;
+    width: 100%;
+    margin-top: 40px;
+}
+.xeberlogo{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin: 30px 0;
+}
+.bottom2 h2{
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 100;
+    padding-top: 20px;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.bottom2 hr{
+    width: 30px;
+    height: 2px;
+    background-color: #0f0f0f;
+    border: none;
+}
+.bottom3{
+    height: 35px;
+    background-color: #111111;
+    width: 100%;
+}
+.bottom3 p{
+    text-align: center;
+}
+@media only screen and (min-width: 768px){
+    nav{
+        padding: 0;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    menu{
+        order: -1;
+        display: flex;
+        gap: 20px;
+    }
+    #scroll{
+        margin-bottom: 10px;
+    }
+    .text{
+        margin-top: 70px;
+    }
+    .row {
+        flex-direction: row;
+        gap: 150px;
+    }
+    .row {
+        display: flex;
+    }
+
+    #img10 {
+        max-width: 980px;
+        margin: auto;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #img10 img {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        object-position: center;
+    }
+    #logolar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .team{
+        gap: 70px;
+    }
+    .row3 {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 40px;
+    }
+    .row3 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .about,.post,.contact {
+        width: 30%;
+    } 
+    .xeberlogo{
+        flex-direction: row;
+        gap: 50px;
+    } 
+}
